@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,33 @@
 
 <body>
 
+  <!-- Navbar -->
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#home" class="navbar-brand page-scroll">Yusuf Herlambang</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#About" class="page-scroll">About</a></li>
+          <li><a href="#Portfolio " class="page-scroll">Portfolio</a></li>
+          <li><a href="#Contact" class="page-scroll">Contact</a></li>
+        </ul>
+      </div>
+      </?div>
+  </nav>
+
+  <!-- Akhir Navbar -->
+
   <!-- jumbotron -->
   <div class="jumbotron text-center">
     <img src="img/yusufbagus1.png" alt="" class="img-circle">
@@ -30,7 +57,7 @@
   <!-- akhitr jumbotron -->
 
   <!-- About -->
-  <section class="about" id="about">
+  <section class="about" id="About">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -56,7 +83,7 @@
   <!-- Akhir About -->
 
   <!-- Portfolio -->
-  <section class="portfolio" id="portfoli0">
+  <section class="portfolio" id="Portfolio">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
@@ -92,7 +119,7 @@
         </div>
         <div class="col-sm-4">
           <a href="" class="thumbnail">
-            <img src="img/portfolio/5.jpg" alt="">
+            <img src="img/portfolio/6.jpg" alt="">
           </a>
         </div>
       </div>
@@ -101,11 +128,12 @@
   <!-- Akhir Portfolio -->
 
   <!-- contact -->
-  <section class="contact" id="">
+  <section class="contact" id="Contact">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
           <h2>Contact</h2>
+          <hr>
         </div>
       </div>
 
@@ -163,9 +191,10 @@
   <!-- Akhir Footer -->
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
